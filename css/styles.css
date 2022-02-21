@@ -1,0 +1,180 @@
+/*Templates*/
+*{font-family: 'Roboto', sans-serif;margin:0; padding:0;box-sizing: border-box;text-decoration: none;outline: none; border:none;/*text-transform: capitalize;*/transition:all .2s linear;}html::-webkit-scrollbar{width:1.4rem;}
+html::-webkit-scrollbar-track{    background:#333;}
+html::-webkit-scrollbar-thumb{    background:var(--yellow);}
+h1{font-size:5rem;}
+h2{  color:#E9C891; font-size: 3.5rem; font-family: serif;}
+h3{    color:black;  font-size: 2.5rem;  font-family: 'Montserrat', sans-serif;}
+hr{background-color:black;height:1px;margin-top: 30px;margin:0 auto;}
+p{font-size: 1rem; color: #40514e; font-family: 'Montserrat', sans-serif;}
+span{ font-size: 1.5rem;font-style:italic;font-family: serif;font-weight: bolder;  width:70%;}
+section{  /*each section has full height*/padding:1rem 10%;       /*padding sa bawat section*/padding-top: 2rem; position:relative;}
+
+/*Header*/
+header{position: fixed;    z-index: 1000;  width:100%;   background:#fff;box-shadow: 0 .3rem 2rem rgba(0,0,0,.1);height:2.8rem; background-color: #333; ;}
+header .navbar ul{    list-style: none;display: flex; justify-content: space-evenly; margin-top: 12px; } 
+header .navbar ul li a{ font-size: 1.125rem;    color:white; font-family: serif;    font-weight: bold;}
+header #menu-bar{  font-size: 3rem;    color:white;    cursor: pointer;    display: none; margin-top: 2%; }
+header .navbar ul .main a:hover{    color:#f5b91f;}
+
+
+/*Section01*/
+#section01{ min-height: 100vh;  height:100%;  background-image:url("../images/newb.jpg");   background-repeat: no-repeat;   background-position: center center;   background-size: cover;   position:relative;}
+.headline{   top: 27%;   left: 8rem;   line-height: 55px; position:absolute;}
+.headline h1{   font-size: 4.5rem;   font-weight: 600;font-family: 'Sacramento', cursive;}
+.headline p{ margin-left: 1rem; font-family: 'Montserrat', sans-serif; letter-spacing: 4px; font-size: 2rem;}
+
+
+ /*section02*/
+        /*section02-divOne*/
+ #section02{background-color: white;}
+.section02-divOne{    margin:0 auto;    text-align: center;}
+.section02-divOne p{    width:70%; margin:20px auto 30px;}
+.section02-divOne hr{    margin-top: 30px;}
+
+        /*section02-divTwo*/
+.section02-divTwo{  display:flex;   justify-content: center;   gap:90px;   margin-top: 7rem;}
+.section02-divTwo .aboutme{    width:30%;    text-align: center;}
+.section02-divTwo .aboutme h3{    margin-bottom: 30px;}
+.section02-divTwo .aboutme p{    width:100%;  text-align: justify;  line-height: 30px;}
+.section02-divTwo .myPicture img{    border-radius: 25%;    border-style: solid;    border-color: grey;    border-width:thick;    width:240px;    height:250px;}
+.section02-divTwo .details h3{    margin-bottom: 30px;}
+.section02-divTwo .details p{line-height: 30px;}
+.sectionTwo-last{  margin:0 auto;}
+.sectionTwo-last hr{    margin-top: 30px;}
+p.gotInspired{   margin-top: 50px;text-align: center;font-style: italic;}
+.donateParent{    width: 60px;    border-radius: 6px;margin: 0 auto;    text-align: center;    background-color:  #FFCC1D;padding:3px 5px 7px;margin-top: 10px;}
+.donateParent a{    color:white;    font-size: .8rem;    margin-bottom: 30px;}
+
+
+/*section03*/
+#section03{ background-color: #FFEDDB;}
+.porfolio-parent{ text-align: center; }
+.porfolio-parent h2{ margin-bottom:20px;       color:brown;}
+
+            /* Position the image container (needed to position the left and right arrows) */
+.container { max-width:935px; width:100%; position: relative; margin:0 auto; margin-top: 30px; border:10px ridge black;}
+.play{margin-left:45%;  padding: 3%;  border-color:white;  border-style: solid; border-width: 4px;border-radius: 50%; position: absolute;top:28%;z-index: 3;background-color: rgba(0, 0, 0, 0.8);}
+.play img{max-width:2rem;width:100%;}
+.play:hover{ background-color: #FFCC1D; animation: pulse 1s infinite; animation-timing-function: linear;   }
+    
+            /* Hide the images by default */
+ .mySlides {   display: none; } 
+
+              /* Add a pointer when hovering over the thumbnail images */
+.cursor {cursor: pointer; }
+
+             /* Next & previous buttons */
+.prev,
+.next { cursor: pointer; position: absolute; top: 50%; width: auto; padding: 8px;margin-top: -50px;color: white; font-weight: bold;font-size: 20px;border-radius: 0 3px 3px 0;user-select: none; -webkit-user-select: none;  background-color: #333; border-color: white; border-width: 3px; border-style: solid;}
+      
+            /* Position the "next button" to the right */
+ .next { right: 0; border-radius: 3px 0 0 3px; top:53%;}
+ .prev{ right: left; border-radius: 3px 0 0 3px; top:53%;}
+
+              /* On hover, add a black background color with a little bit see-through */
+ .prev:hover,
+ .next:hover { background-color: #FFCC1D;}
+      
+              /* Number text (1/3 etc) */
+ .numbertext {color: #f2f2f2; font-size: 12px;     padding: 8px 12px;     position: absolute;     top: 0; }
+
+               /* Container for image text */
+ .caption-container p {text-align: center;background-color:black;padding: 2px 16px;color: white;font-size: .7rem;}
+  .row:after {content: "";display: table;clear: both;}
+     
+               /* Six columns side by side */
+   .column {float: left;   width: 16.66%; }
+
+              /* Add a transparency effect for thumnbail images */
+  .demo {  opacity: 0.5;}
+  .active,.demo:hover { opacity: 1; }
+
+/*section04*/
+#section04{position: relative; text-align: center;}
+#section04 h2{text-align: center;margin-bottom: 20px; }
+#section04 span{margin: auto; width:50%;}
+#section04 .projectName{ margin-top: 30px; font-weight: bolder;text-align: left;}
+#section04 .projectDetails{margin-top: 10px;width:95%;text-align: left;}
+
+/*section05*/
+#section05{ background-color: #FFEDDB;position: relative; text-align: center;padding-bottom: 7%; }
+#section05 h2{text-align: center;margin-bottom: 20px;color:brown;}
+#section05 span{margin: auto;}
+#section05 .jobTitle{ margin-top: 5%; font-weight: bolder;text-align: left;}
+#section05 .companyName{margin-top: 10px;width:95%;text-align: left;}
+#section05 .jobResponsibilities{ text-align: left;}
+
+/*sectio06*/
+#section06{position: relative; text-align: center;}
+#section06 h2{ text-align: center;}
+.section06-container{display: flex ; gap:10%; margin-top: 6%; justify-content: center;}
+.section06-container p.personalProgramming{ font-weight: bolder; margin-bottom: 10%;}
+.section06-container p.personalContent{line-height: 150%;}
+.currectlyStuding{text-align: left;}
+.lastQuote-conatainer{margin-top: 10%;}
+
+/*footer*/
+footer{ background-color:  deepskyblue; text-align: center;}
+footer h5{ color:white; font-size: 1.5rem; letter-spacing: 5px; margin-bottom: 20px;}
+footer p{ color:white; line-height: 100%;}
+footer a{ text-decoration: none; color:white}
+footer h6{ margin-top: 20px; color:white;margin-bottom: 10px; font-weight: 400;}
+
+/*positioning*/
+#hr1{position: absolute;top:97%;}
+#hr2{position: absolute;top:-.6%;}
+#hr3{position: absolute;top:-9%;}
+#hr4{position: absolute;top:-16%;}
+#hr5{position: absolute;top:-2%;}
+
+@media (max-width:1100px){
+ section{height:auto}
+  html{font-size: 80%;}
+  .section02-divTwo{display:flex; flex-direction: column; text-align: center;margin-top: 80px; gap:40px;}
+  .section02-divTwo .aboutme{order:1;width:100%;} 
+  .section02-divTwo .details{order:2;}
+
+  .headline{   top: 27%;   left: 8rem;   line-height: 55px; position:absolute;}
+  .section02-divTwo .aboutme h3{ margin-bottom: 20px;}
+  .section02-divTwo .aboutme p{    width:60%;   line-height: 20px; margin:0 auto;}
+  .section02-divTwo .myPicture img{    border-radius: 25%;    border-style: solid;    border-color: grey;    border-width:thick;    width:240px;    height:250px;}
+  .section02-divTwo .details h3{    margin-bottom: 20px;}
+  .section02-divTwo .details p{line-height: 20px;width:60%; margin:0 auto; text-align: left;}
+
+}
+
+
+@media (max-width:880px){
+  .headline{   top: 27%;   left: 2rem;   line-height: 45px; position:absolute;}
+}
+@media (max-width:768px){
+  html{ font-size: 70%;}
+  header #menu-bar{   display: block; position:absolute; right:20px;}
+  header{height:60px;}
+  header .navbar{position: fixed;top:5.3rem; left:0;width:100%;background:#333;border-top: .2rem solid rgba(0,0,0,.1);transform:scaleY(0);transform-origin: top;  opacity: 0;}
+  header .navbar ul{    flex-flow: column;    padding:2rem;}
+  header .navbar ul .main a{   margin:1.3rem;   width: 100%;   border-left: 0;}
+  header .navbar ul .main a{ display: block; color:#fff; padding-left: 2rem; border-left: .2rem solid #fff; font-size: 2rem;}
+  .fa-times{  transform:rotate(90deg); }
+  header .navbar.nav-toggle{  transform:scaleY(1);  opacity: 1;}
+}
+@media (max-width:640px){
+  .headline{   top: 31%;   left: 1.6rem;   line-height: 45px; position:absolute;}
+  .headline h1{   font-size: 4.5rem;   font-weight: 600;font-family: 'Sacramento', cursive;color:brown;}
+  .headline p{ margin-left: 1rem; font-family: 'Montserrat', sans-serif; letter-spacing: 2px; font-size: 2rem; color:brown;}
+}
+@media (max-width:500px){
+  #menu-bar{font-size: 60%; }
+  header{height:50px;} 
+  header .navbar{top:4.4rem;}
+  .headline{   top: 31%;   left: 1.6rem;   line-height: 45px; position:absolute;}
+  .headline h1{   font-size: 4.5rem;   font-weight: 600;font-family: 'Sacramento', cursive; }
+  .headline p{ margin-left: 1rem; font-family: 'Montserrat', sans-serif; letter-spacing: 2px; font-size: 2rem;}
+  .section06-container{display: flex ;  margin-top: 10%; justify-content: center;flex-direction: column;gap:20px;}
+  .section06-container p.personalProgramming{ font-weight: bolder; margin-bottom: 3%}
+  .currectlyStuding{text-align: center;}
+  .currectlyStuding h4{margin-top: 30px;}
+  .currectlyStuding ul{margin-top: 10px;}
+  .currectlyStuding ul li{list-style:none;}
+}
