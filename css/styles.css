@@ -180,7 +180,7 @@ footer h6{ margin-top: 20px; color:white;margin-bottom: 10px; font-weight: 400;}
 @media (max-width:640px){
   .section02-divOne p{    width:100%;}
   .headline{   top: 31%;   left: 1.6rem;   line-height: 45px; position:absolute;}
-  .headline h1{   font-size: 4.5rem;   font-weight: 600;font-family: 'Sacramento', cursive;color:black;text-shadow:1px 1px white; }
+  .headline h1{   font-size: 4.5rem;   font-weight: 600;font-family: 'Sacramento', cursive;color:brown;text-shadow:1px 1px white; }
   .headline p{ margin-left: 1rem; font-family: 'Montserrat', sans-serif; letter-spacing: 2px; font-size: 2rem; color:brown;text-shadow:1px 1px white; }
   p{font-size: 1.5rem;}
 }
