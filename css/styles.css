@@ -39,7 +39,7 @@ header .navbar ul .main a:hover{    color:#f5b91f;}
         /*section02-divOne*/
  #section02{background-color: white;}
 .section02-divOne{    margin:0 auto;    text-align: center;}
-.section02-divOne p{    width:100%; margin:20px auto 30px; text-align: justify;}
+.section02-divOne p{    width:70%; margin:20px auto 30px; text-align: justify;}
 .section02-divOne hr{    margin-top: 30px;}
 
         /*section02-divTwo*/
@@ -64,7 +64,7 @@ p.gotInspired{   margin-top: 50px;text-align: center;font-style: italic;}
 
             /* Position the image container (needed to position the left and right arrows) */
 .container { max-width:935px; width:100%; position: relative; margin:0 auto; margin-top: 30px; border:10px ridge black;}
-.play{margin-left:45%;  padding: 3%;  border-color:white;  border-style: solid; border-width: 4px;border-radius: 50%; position: absolute;top:28%;z-index: 3;background-color: rgba(0, 0, 0, 0.8);  animation: pulse 1s infinite;
+.play{margin-left:45%;  padding: 3%;  border-color:white;  border-style: solid; border-width: 4px;border-radius: 50%; position: absolute;top:40%;z-index: 3;background-color: rgba(0, 0, 0, 0.8);  animation: pulse 1s infinite;
   transition: 0.3s;}
 .play img{max-width:2rem;width:100%;}
 .play:hover{ background-color: #FFCC1D; animation: pulse 1s infinite; animation-timing-function: linear;   }
@@ -162,9 +162,11 @@ footer h6{ margin-top: 20px; color:white;margin-bottom: 10px; font-weight: 400;}
 @media (max-width:880px){
   .headline{   top: 27%;   left: 2rem;   line-height: 45px; position:absolute;}
   p{font-size: 1.5rem;}
+  .section02-divOne p{    width:100%;}
 }
 @media (max-width:768px){
   html{ font-size: 70%;}
+  .section02-divOne p{    width:100%;}
   header #menu-bar{   display: block; position:absolute; right:20px;}
   header{height:60px;}
   header .navbar{position: fixed;top:5.3rem; left:0;width:100%;background:#333;border-top: .2rem solid rgba(0,0,0,.1);transform:scaleY(0);transform-origin: top;  opacity: 0;}
@@ -176,12 +178,14 @@ footer h6{ margin-top: 20px; color:white;margin-bottom: 10px; font-weight: 400;}
   p{font-size: 1.5rem;}
 }
 @media (max-width:640px){
+  .section02-divOne p{    width:100%;}
   .headline{   top: 31%;   left: 1.6rem;   line-height: 45px; position:absolute;}
-  .headline h1{   font-size: 4.5rem;   font-weight: 600;font-family: 'Sacramento', cursive;color:brown;}
-  .headline p{ margin-left: 1rem; font-family: 'Montserrat', sans-serif; letter-spacing: 2px; font-size: 2rem; color:brown;}
+  .headline h1{   font-size: 4.5rem;   font-weight: 600;font-family: 'Sacramento', cursive;color:black;text-shadow:1px 1px white; }
+  .headline p{ margin-left: 1rem; font-family: 'Montserrat', sans-serif; letter-spacing: 2px; font-size: 2rem; color:brown;text-shadow:1px 1px white; }
   p{font-size: 1.5rem;}
 }
 @media (max-width:500px){
+  .section02-divOne p{    width:100%;}
   #menu-bar{font-size: 60%; }
   header{height:50px;} 
   header .navbar{top:4.4rem;}
