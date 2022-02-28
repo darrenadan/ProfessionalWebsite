@@ -481,16 +481,7 @@
 </script>
 
 <script>
-AOS.init({
-  disable: function() {
-    var maxWidth = 1100;
-    var maxWidth = 880;
-    var maxWidth = 768;
-    var maxWidth = 640;
-    var maxWidth = 500;
-    return window.innerWidth < maxWidth;
-  }
-});
+AOS.init({ disable: 'mobile' });
 </script>
 
 <script>
