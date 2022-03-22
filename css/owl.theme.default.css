@@ -42,11 +42,11 @@ position:relative;}
       width: 50px;
       height: 15px;
       margin: 5px 7px;
-      background: #D6D6D6;
-      border:.5px solid #E9C891;
+      background: white;
+      /*border:.5px solid white;*/
       display: block;
       -webkit-backface-visibility: visible;
       transition: opacity 200ms ease;
       border-radius: 30px; }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-      background: #E9C891; }
+      background: brown; }
